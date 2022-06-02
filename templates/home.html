@@ -1,4 +1,4 @@
- {% extends "layout.html" %}
+{% extends "layout.html" %}
 
 {% block content %}
 
@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="thumbnail">
-                <img src="{{url_for(filename='img/iris_setosa.jpg')}}" class="img-thumbnail" />
+                <img src="{{url_for('static', filename='images/iris_setosa.jpg')}}" class="img-thumbnail" />
                 <div class="caption">
                      <p><strong>Iris Setosa</strong></p>
                    </div>
@@ -18,7 +18,7 @@
         </div>
         <div class="col-md-4">
             <div class="thumbnail">
-                <img src="{{url_for(filename='img/iris_versicolor.jpg')}}" class="img-thumbnail" />
+                <img src="{{url_for('static', filename='images/iris_versicolor.jpg')}}" class="img-thumbnail" />
                 <div class="caption">
                      <p><strong>Iris Versicolor</strong></p>
                    </div>
@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-4">
             <div class="thumbnail">
-                <img src="{{url_for( filename='img/iris_virginica.jpg')}}" class="img-thumbnail" />
+                <img src="{{url_for('static', filename='images/iris_virginica.jpg')}}" class="img-thumbnail" />
                 <div class="caption">
                      <p><strong>Iris Virginica</strong></p>
                    </div>
