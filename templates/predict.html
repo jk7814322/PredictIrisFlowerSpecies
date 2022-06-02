@@ -10,7 +10,7 @@
     <div class="row justify-content-md-center">
         <div class="thumbnail">
             {% if prediction[0] == "Iris-setosa" %}
-                <img src="{{url_for('static', filename='img/iris_setosa.jpg')}}" class="img-thumbnail" />
+                <img src="{{url_for('static', filename='images/iris_setosa.jpg')}}" class="img-thumbnail" />
             {% endif %}
         </div>
     </div>
@@ -18,7 +18,7 @@
     <div class="row justify-content-md-center">
         <div class="thumbnail">
             {% if prediction[0] == "Iris-versicolor" %}
-                <img src="{{url_for('static', filename='img/iris_versicolor.jpg')}}" class="img-thumbnail" />
+                <img src="{{url_for('static', filename='images/iris_versicolor.jpg')}}" class="img-thumbnail" />
             {% endif %}
         </div>
     </div>
@@ -26,7 +26,7 @@
     <div class="row justify-content-md-center">
         <div class="thumbnail">
             {% if prediction[0] == "Iris-virginica" %}
-                <img src="{{url_for('static', filename='img/iris_virginica.jpg')}}" class="img-thumbnail" />
+                <img src="{{url_for('static', filename='images/iris_virginica.jpg')}}" class="img-thumbnail" />
             {% endif %}
         </div>
     </div>
